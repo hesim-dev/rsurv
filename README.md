@@ -13,7 +13,7 @@ generating processes based on empirical data are an intended use case.
 The package can be installed from GitHub with:
 
 ``` r
-devtools::install_github("incertid/hesim")
+devtools::install_github("dincerti/rsurv")
 ```
 
 ## Usage
@@ -31,11 +31,11 @@ head(sc)
 
     ##         time id  survival
     ## 1 0.00000000  1 1.0000000
-    ## 2 0.08333333  1 0.9625631
-    ## 3 0.16666667  1 0.9265277
-    ## 4 0.25000000  1 0.8918413
-    ## 5 0.33333333  1 0.8584535
-    ## 6 0.41666667  1 0.8263156
+    ## 2 0.08333333  1 0.9793649
+    ## 3 0.16666667  1 0.9591556
+    ## 4 0.25000000  1 0.9393633
+    ## 5 0.33333333  1 0.9199794
+    ## 6 0.41666667  1 0.9009955
 
 Random survival times for each individual can then be easily drawn:
 
@@ -51,4 +51,4 @@ summary(sim)
 ```
 
     ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-    ##  0.08333  0.91667  2.00000  3.01583  3.93750 29.00000
+    ##  0.08333  0.83333  2.16667  3.10875  4.33333 21.58333

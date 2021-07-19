@@ -9,7 +9,7 @@ output: github_document
 The package can be  installed from GitHub with:
 
 ``` r
-devtools::install_github("incertid/hesim")
+devtools::install_github("dincerti/rsurv")
 ```
 
 ## Usage
