@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://incertid.github.io/rsurv/index.html</loc>
+  </url>
+  <url>
+    <loc>https://incertid.github.io/rsurv/reference/as_survival_curves.html</loc>
+  </url>
+  <url>
+    <loc>https://incertid.github.io/rsurv/reference/example_survival_curves.html</loc>
+  </url>
+  <url>
+    <loc>https://incertid.github.io/rsurv/reference/rsurv-package.html</loc>
+  </url>
+  <url>
+    <loc>https://incertid.github.io/rsurv/reference/rsurv.html</loc>
+  </url>
+  <url>
+    <loc>https://incertid.github.io/rsurv/reference/survival_curves.html</loc>
+  </url>
+</urlset>

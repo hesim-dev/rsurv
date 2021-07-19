@@ -1,0 +1,22 @@
+Package: rsurv
+Type: Package
+Title: Vectorized random generation of survival times
+Version: 0.0.0.9999
+Authors@R: c(
+    person("Devin", "Incerti", , "devin.incerti@gmail.com", role = c("aut", "cre"))
+    )
+Description: Randomly draw survival times from survival curves without making 
+    parametric assumptions in an efficient manner. Code is written in C++ so 
+    that each individual can have a unique survival function. 
+License: GPL (>= 2)
+Imports: 
+    data.table,
+    Rcpp (>= 1.0.6)
+Suggests:
+    knitr
+LinkingTo: Rcpp
+URL: https://github.com/dincerti/rsurv
+BugReports: https://github.com/dincerti/rsurv/issues
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

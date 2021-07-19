@@ -1,0 +1,11 @@
+url: https://incertid.github.io/rsurv
+
+development:
+  mode: auto
+  
+reference:
+  - title: "Functions"
+    contents:
+      - survival_curves
+      - as_survival_curves
+      - rsurv

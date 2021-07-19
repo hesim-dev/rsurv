@@ -1,0 +1,9 @@
+pandoc: 2.11.4
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2021-07-19T21:08Z
+urls:
+  reference: https://incertid.github.io/rsurv/reference
+  article: https://incertid.github.io/rsurv/articles
+
