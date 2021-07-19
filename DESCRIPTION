@@ -15,8 +15,8 @@ Imports:
 Suggests:
     knitr
 LinkingTo: Rcpp
-URL: https://github.com/dincerti/rsurv
-BugReports: https://github.com/dincerti/rsurv/issues
+URL: https://github.com/hesim-dev/rsurv, http://hesim-dev.github.io/rsurv/
+BugReports: https://github.com/hesim-dev/rsurv/issues
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1

@@ -1,4 +1,8 @@
-url: https://incertid.github.io/rsurv
+url: https://hesim-dev.github.io/rsurv
+
+template:
+  params:
+    bootswatch: simplex 
 
 development:
   mode: auto
