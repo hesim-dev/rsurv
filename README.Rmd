@@ -1,6 +1,7 @@
 ---
 output: github_document
 ---
+# Random Generation of Survival Times
 
 ## Overview
 `rsurv` is a lightweight package with minimal dependencies for randomly generating survival times efficiently and flexibly. Survival times can be randomly drawn from any survival distribution and all code is vectorized so that each individual can have their own survival function. Monte Carlo simulation studies that aim to simulate realistic data generating processes based on empirical data are an intended use case.

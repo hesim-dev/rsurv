@@ -1,4 +1,6 @@
 
+# Random Generation of Survival Times
+
 ## Overview
 
 `rsurv` is a lightweight package with minimal dependencies for randomly
@@ -31,11 +33,11 @@ head(sc)
 
     ##         time id  survival
     ## 1 0.00000000  1 1.0000000
-    ## 2 0.08333333  1 0.9797898
-    ## 3 0.16666667  1 0.9599881
-    ## 4 0.25000000  1 0.9405866
-    ## 5 0.33333333  1 0.9215772
-    ## 6 0.41666667  1 0.9029520
+    ## 2 0.08333333  1 0.9791166
+    ## 3 0.16666667  1 0.9586694
+    ## 4 0.25000000  1 0.9386491
+    ## 5 0.33333333  1 0.9190469
+    ## 6 0.41666667  1 0.8998541
 
 Random survival times for each individual can then be easily drawn:
 
@@ -51,4 +53,4 @@ summary(sim)
 ```
 
     ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-    ##  0.08333  0.83333  2.08333  3.14350  4.41667 26.58333
+    ##  0.08333  0.83333  1.91667  3.08467  4.16667 24.08333

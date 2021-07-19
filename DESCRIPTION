@@ -1,13 +1,14 @@
 Package: rsurv
 Type: Package
-Title: Vectorized random generation of survival times
+Title: Random Generation of Survival Times
 Version: 0.0.0.9999
 Authors@R: c(
     person("Devin", "Incerti", , "devin.incerti@gmail.com", role = c("aut", "cre"))
     )
 Description: Randomly draw survival times from survival curves without making 
-    parametric assumptions in an efficient manner. Code is written in C++ so 
-    that each individual can have a unique survival function. 
+    parametric assumptions in an efficient manner. Each individual can have
+    their own survival function and code is written in C++ to ensure that all 
+    random sampling is vectorized.
 License: GPL (>= 2)
 Imports: 
     data.table,
