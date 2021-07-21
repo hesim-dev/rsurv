@@ -14,7 +14,8 @@ Imports:
     data.table,
     Rcpp (>= 1.0.6)
 Suggests:
-    knitr
+    knitr,
+    testthat
 LinkingTo: Rcpp
 URL: https://github.com/hesim-dev/rsurv, http://hesim-dev.github.io/rsurv/
 BugReports: https://github.com/hesim-dev/rsurv/issues

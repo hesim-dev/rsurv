@@ -90,12 +90,13 @@ as_survival_curves.data.frame <- function(x, time = "time", id = "id",
 #' @param n The number of individuals to create survival curves for.
 #' @param rates Rate parameter for each individual. Must be a numeric vector
 #' of length `n`.
+#' @param times A vector of times at which to compute survival probabilities.
 #' 
 #' @seealso See [survival_curves()] for information about the `survival_curves`
 #' class.
 #' @export
-example_survival_curves <- function(n = 1000, rates = stats::runif(n, .2, .5)) {
-  times <- rep(seq(0, 30, 1/12))
+example_survival_curves <- function(n = 1000, rates = stats::runif(n, .2, .5),
+                                    times = seq(0, 30, 1/12)) {
   sc_df <- data.frame(
     id = rep(1:n, each = length(times)),
     time = rep(times, times = length(rates)),

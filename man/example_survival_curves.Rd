@@ -4,13 +4,19 @@
 \alias{example_survival_curves}
 \title{Example survival curves}
 \usage{
-example_survival_curves(n = 1000, rates = stats::runif(n, 0.2, 0.5))
+example_survival_curves(
+  n = 1000,
+  rates = stats::runif(n, 0.2, 0.5),
+  times = seq(0, 30, 1/12)
+)
 }
 \arguments{
 \item{n}{The number of individuals to create survival curves for.}
 
 \item{rates}{Rate parameter for each individual. Must be a numeric vector
 of length \code{n}.}
+
+\item{times}{A vector of times at which to compute survival probabilities.}
 }
 \description{
 Create a \code{\link{survival_curves}} object for use in examples by generating survival

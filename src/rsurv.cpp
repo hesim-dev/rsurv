@@ -46,7 +46,9 @@ std::vector<double> C_rsurv(std::vector<double> &time, std::vector<double> prob,
   for (int i = 0; i < n_rep; ++i) { // Loop over replications
     int row = 0;
     for (int j = 0; j < n_id; ++j) { // Loop over IDs
-      random_times[cntr] = rsurv(time.begin() + row, time.end() + row, 
+      
+      random_times[cntr] = rsurv(time.begin() + row, 
+                                 time.begin() + row + n_times[j] - 1, 
                                  prob.begin() + row);
       row = row + n_times[j];
       cntr++;
